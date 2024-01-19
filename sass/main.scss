@@ -1,0 +1,14 @@
+body{
+    background-color:  #070708;
+    font-family: 'Manrope', sans-serif;
+}
+@import "./base/reset";
+@import "./base/extend";
+@import "./base/mixin";
+@import "./components/header/header-nav";
+@import "./components/main/title";
+@import "./components/main/imgs";
+@import "./components/main/about";
+@import "./components/main/services";
+@import "./components/main/media";
+

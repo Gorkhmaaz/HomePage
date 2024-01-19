@@ -1,0 +1,86 @@
+ .choose-photography {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 20px;
+     border-top: 1px solid #1C1C21;
+     border-bottom: 1px solid #1C1C21;
+
+     p {
+         font-size: 12px;
+         color: #D6D0FB;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 150%;
+         text-transform: uppercase;
+     }
+ }
+
+ .section-images {
+     width: 90%;
+     margin-bottom: 50px;
+     margin: auto;
+     position: relative;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     gap: 10px;
+
+     .section-images__left {
+         width: 33%;
+
+         .section-images__left-one {
+
+             width: 100%;
+             height: 310px;
+         }
+
+         .section-images__left-two {
+             width: 133px;
+             height: 143px;
+         }
+     }
+
+     .section-images__middle {
+         width: 37%;
+
+         .section-images__middle-one {
+
+             height: 460px;
+             width: 100%;
+         }
+     }
+
+     .section-images__right {
+         width: 28%;
+         display: flex;
+         flex-direction: column;
+         align-items: flex-end;
+         gap: 10px;
+
+         .section-images__right-one {
+
+             width: 100%;
+             height: 280px;
+         }
+
+         .section-images__right-two {
+
+             width: 100%;
+             height: 170px;
+         }
+     }
+ }
+
+ .section-images__absolute {
+     position: absolute;
+     top: 135px;
+     left: 140px;
+
+     img {
+         width: 492px;
+         height: 322px;
+     }
+
+ }
